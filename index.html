@@ -9,8 +9,18 @@
   </head>
   <body>
     <h1>The RGB Color Guessing Game</h1>
-    <h2 id="color-display"></h2>
-    <div><h3 id="message"></h3></div>
+    <div id="color-given">
+      <h1>
+        Color Given:
+        <h1 id="color-display"></h1>
+      </h1>
+    </div>
+    <div id="stripe">
+      <button id="reset">New Colors</button>
+      <h3 id="message"></h3>
+      <button id="easyBtn">Easy</button>
+      <button id="hardBtn" class="selected">Hard</button>
+    </div>
 
     <div id="container">
       <div class="square"></div>

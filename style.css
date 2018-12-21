@@ -26,3 +26,25 @@ h2 {
 h3 {
   color: white;
 }
+
+#stripe {
+  background: white;
+  height: 30px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#color-given {
+  display: flex;
+  flex-direction: row;
+}
+
+#color-display {
+  margin-left: 20px;
+}
+
+.selected {
+  background: blue;
+}
