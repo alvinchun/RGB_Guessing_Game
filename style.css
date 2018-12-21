@@ -29,7 +29,7 @@ h3 {
 
 #stripe {
   background: white;
-  height: 30px;
+  height: 50px;
   color: black;
   display: flex;
   flex-direction: row;
@@ -43,6 +43,10 @@ h3 {
 
 #color-display {
   margin-left: 20px;
+}
+
+#message {
+  color: black;
 }
 
 .selected {
